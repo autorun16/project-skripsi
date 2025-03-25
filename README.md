@@ -13,30 +13,31 @@ Sebelum menjalankan program php ini, lakukan langkah berikut :
 
 3. Selanjutnya Buka terminal pada aplikasi TextEditor.
 
-4. Ketik command berikut pada terminal (tanpa tanda kutip) :
-   pertama  : "composer update"
+4. Ketik command berikut pada terminal (tanpa tanda kutip):
 
-        setelah command diatas selesai lanjut command kedua
+        composer update
 
-   kedua    : "npm update"
+   setelah command diatas selesai lanjut command kedua:
 
-5. Selanjutnya import file database SQL yang ada pada folder "assets/SQL".
+        npm update
 
-6. Gunakan username dan password berikut untuk mengakses menu:
+7. Selanjutnya import file database SQL yang ada pada folder "assets/SQL".
 
-    level Admin     :   Username : admin
-                        Password : admin
+8. Gunakan username dan password berikut untuk mengakses menu:<br>
+    - level Admin :<br>
+       Username : admin<br>
+       Password : admin<br>
 
-    level pimpinan  :   Username : pimpinan
-                        Password : 12345
+    - level pimpinan :<br>
+       Username : pimpinan<br>
+       Password : 12345<br>
 
-
-
+<br><br>
 Untuk melakukan perubahan desain jalankan command berikut pada terminal (tanpa tanda kutip)
 
-    "npx tailwindcss -i ./assets/tailwind/input.css -o ./assets/tailwind/output.css --watch"
+    npx tailwindcss -i ./assets/tailwind/input.css -o ./assets/tailwind/output.css --watch
 
-    note : command di atas harus dijalankan setiap pertama kali membuka TextEditor.
+note : command di atas harus dijalankan setiap pertama kali membuka TextEditor.
 
 Setelah itu anda sudah bisa melakukan perubahan desain pada website, namun perlu diingat bahwa website ini
 tidak menggunakan CSS murni, melainkan menggunakan Tailwind CSS, untuk mengetahui class Tailwind dapat dilihat
